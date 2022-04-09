@@ -5,6 +5,6 @@ import com.example.mvvmnavigation.screens.base.BaseScreen
 class EditFragment {
 
     class Screen(
-        val initialValue:String
+        val initialValue: String
     ):BaseScreen
 }

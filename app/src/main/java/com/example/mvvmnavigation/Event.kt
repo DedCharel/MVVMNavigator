@@ -1,7 +1,5 @@
 package com.example.mvvmnavigation
 
-class Event {
-
     class Event<T>(
         private val value: T
     ) {
@@ -14,4 +12,3 @@ class Event {
         }
 
     }
-}

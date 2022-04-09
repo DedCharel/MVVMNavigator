@@ -9,8 +9,6 @@ class VIewModelFactory: ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         TODO("Not yet implemented")
     }
-
-
 }
 
 inline fun <reified VM: ViewModel> BaseFragment.screenViewModel() = viewModels<VM> {
